@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 48px 64px;
+  text-align: center;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+  max-width: 560px;
+}
+
+.title {
+  font-size: 42px;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.intro {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 32px;
+}
+
+.time-box {
+  background: #f5f7ff;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.time-label {
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 8px;
+}
+
+.time-value {
+  font-size: 28px;
+  font-weight: bold;
+  color: #667eea;
+  font-variant-numeric: tabular-nums;
+}

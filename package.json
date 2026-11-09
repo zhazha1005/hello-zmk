@@ -1,0 +1,12 @@
+{
+  "name": "hello-world-website",
+  "version": "1.0.0",
+  "description": "Hello World! 我是【Zhazha】，我的第一个AI开发的网站",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
